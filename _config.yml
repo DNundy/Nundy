@@ -11,7 +11,7 @@ language    : zh-CN
 timezone    : UTC
 
 # URL
-url                 : http://uniquesoli.cn
+url                 : http://nundy.cn
 root                : /
 permalink           : :year/:month/:day/:title/
 permalink_defaults  : 
