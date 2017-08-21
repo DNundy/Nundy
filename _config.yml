@@ -80,7 +80,7 @@ plugin          : hexo-generator-feed
 theme           : yilia
 
 
-# Deployment
+# Deployment hexo-deployer-git插件
 deploy:
   type        : git
   repository  : git@github.com:UniqueSirius/UniqueSirius.github.io.git
