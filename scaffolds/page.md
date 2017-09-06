@@ -1,5 +1,12 @@
 ---
-title: {{ title }}
-date: {{ date }}
-tags: 
+
+title 		: {{ title }}
+date 		: {{ date }}
+music 		: 'false'
+musicID 	: 
+encrypt 	: false
+enc_pwd 	: 
+tags 		: 
+			- 
+
 ---

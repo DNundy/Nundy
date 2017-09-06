@@ -1,39 +1,91 @@
-Personal Static Blog Site Backup
-===
-
-站点简介
-===
-
-站点采用 [Hexo](https://hexo.io/zh-cn/"爱的传送门") 静态博客框架,主题采用了Litten大神的 [Yilia](https://github.com/litten/hexo-theme-yilia"爱的传送门") 主题,它简洁优雅，扁平风格，个人觉得非常棒。本站点在Yilia的基础上做了适当修改！
-
-查看具体效果请点击 [Nundy的博客](http://nundy.cn/"爱的传送门") !
-
-------
-
-目录介绍
-===
-
-项目的管理等附属文件
 ---
 
-+ **.deploy_git** 	：该文件夹是博客在部署到 GitHub Pages上时，插件自动创建的目录，可以删除，但是再次部署时还会生成
-+ **.gitignore** 	：这是一个git的配置文件，定义了不列入git管理的文件
-+ **db.json** 		：缓存文件，可以删除，再次部署之后还会生成的，标签和分类出现不一致的缓存问题时，试着删除该文件后重新部署！
-+ **node_modules** 	：该文件夹是node.js的模块目录，备份时，通过.gitignore文件设置忽略了
-+ **package.json** 	: 项目的配置信息，定义了项目所需要的各个模块及其版本等信息，在包含该文件的根目录下，直接运行“npm install”命令而不指定某个模块，npm就会安装该文件中定义的所有模块
-+ **README.md** 	：项目说明文件
+title 		: Hexo小窝de自我介绍
+date 		: 2017-09-06 20:46:49
+music 		: 'true'
+musicID 	: 27836179
+tags 		: 
+			- Hexo 博客
 
-项目的主要源码文件
 ---
 
-+ **scaffolds** 			：该文件定义了一些生成文件时用的模板
-+ **source** 	：资源文件夹，写好的文章，页面，静态文件，以及域名解析用到的CNAME文件都保存在这里
-+ **themes**				：主题文件存放目录
-+ **photos** 				：相册文件夹
-+ **createPhotoList.js** 	：node.js脚本，遍历photos文件夹，生成照片列表list.json
-+ **Deploy.bat** 			：一个简单的bat脚本，定义了部署，生成相册列表等命令。文章写好或者新增相册文件后双击即可生成相册需要的文件并且完成部署。
+![Hexo小窝de自我介绍](/assets/blogImg/Hexo小窝的自我介绍.jpg)
 
-------
+Hi , 终于等到你，还好我没放弃！
+
+我的名字叫 Nundy，我来自陕北那旮沓，你别看我可爱，嘿嘿，其实我的功能也不赖哦！
+
+<!-- more -->
+
+---
+
+阮一峰大大曾经说过，博客一般会经历三个阶段：
+
+第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。
+
+第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
+
+第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。
+
+惊觉和我的成长道路完全一样 !
+
+从最早的CSDN开始，到之后搬到WordPress，最后安家于Github Page。过程不敢说有多难，但是也算是有些许不易。一路走走停停，付出了很多，也从中学到了很多。
+
+到现在，终于成长为了自己喜欢的模样！
+
+---
+
+看着镜子中的自己，真的有些恍惚！就像 Litten 说的一样
+
+>它不是qq空间，不是新浪博客，不是豆瓣小站，也不是贴吧。
+>它更像是属于自己的一块小小的领地，因而我满足于这种归属感。我只愿在上面安静劳作！
+
+是的，一路的折腾，只是为了寻找心中的那份归属感，而现在，我找到了！
+
+就以此稍稍纪念一下我逝去的时光吧，也为了帮助其他还在成长路上的Bloger~
+
+>一个人至少拥有一个梦想，有一个理由去坚强。
+>心若没有栖息的地方，到哪里都是在流浪！
+
+#### 我的个人目录
+
+```Folder
+deploy_git 		：博客在部署到 GitHub Pages上时，插件自动创建的目录，可以删除，但是再次部署时还会生成
+node_modules 		：node.js的模块存放目录，部署备份时，通过.gitignore文件设置忽略
+photos 			：震惊，博客空间竟然惊现私密相册？
+scaffolds 		：生成Post、Page等时用的模板文件
+source 			：资源文件夹，文章，页面等静态文件，及域名解析用的CNAME文件都保存在这里
+themes 			：主题文件存放目录
+.gitignore 		：git的配置文件，定义了不列入git管理的文件
+_config.yml 		：Hexo博客的统一配置信息
+createPhotoList.js 	：node.js脚本，遍历photos文件夹，生成照片列表list.json
+db.json 		：缓存文件，可以删除。但再次部署后还会生成，标签、分类出现缓存问题时，可以考虑删除该文件后重新部署
+devServer.bat 		：开启localhost:4000服务器的BAT脚本
+devServer.bat 		：部署博客到Github的BAT脚本
+package.json 		: 博客项目的配置信息，定义了项目所需的各个模块及其版本信息等
+README.md 		：项目说明文件
+
+```
+#### 我的主题目录
+
+```Folder
+languages 		：设置了语言文件信息
+layout 			：用于布局的ejs文件
+node_modules 		：node.js的模块存放目录，部署备份时，通过.gitignore文件设置忽略
+source 			：最终生成的目标文件夹，可以删除，由source-src打包生成
+source-src 		：源代码文件夹 
+.babelrc 		: babel的配置文件
+.editorconfig 		：帮助开发者在不同的编辑器和IDE之间定义和维护一致的代码风格
+.eslintignore 		：定义了eslint忽略文件
+.eslintrc.js 		：在Vue-Cli脚手架根目录下,导出一个包含配置的对象
+.gitattributes 		：用于设置文件的对比方式,常用非文本文件
+.gitignore 		：git的配置文件，定义了不列入git管理的文件
+_config.yml 		：yml数据格式的主题配置信息
+package.json 		：主题项目的配置信息，定义了项目所需的各个模块及其版本信息等
+webpack.config.js 	：webpack的配置信息
+README.md 		：项目说明文件
+
+```
 
 功能介绍
 ===
