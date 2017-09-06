@@ -1,17 +1,16 @@
 /*
-* @Author: Administrator
+* @Author: Nundy
 * @Date:   2017-08-15 15:47:14
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-08-20 18:10:13
+* @Last Modified time: 2017-09-06 14:10:00
 */
 "use strict";
-
 const fs    = require("fs");
 const join  = require("path").join;
 const path  = "./photos";
 
 fs.readdir(path, function (err, files) {
-    const arr   = [];
+    let arr   = [];
     if (err) {
         return;
     }
@@ -25,9 +24,9 @@ fs.readdir(path, function (err, files) {
                 return;
             }
             if (stats.isDirectory()) {
-                const link  = [];
-                const text  = [];
-                const fpath = join(path,fs.readdirSync(path)[index]);
+                let link  = [];
+                let text  = [];
+                let fpath = join(path,fs.readdirSync(path)[index]);
 
                 fs.readdirSync(fpath).forEach(function(value) {
                     link.push(value);
