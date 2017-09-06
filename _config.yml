@@ -76,7 +76,7 @@ rss             : /atom.xml
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-plugin          : hexo-generator-feed
+plugin          : 
 theme           : yilia
 
 
