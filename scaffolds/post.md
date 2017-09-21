@@ -2,7 +2,7 @@
 
 title 		: {{ title }}
 date 		: {{ date }}
-music 		: 'false'
+music 		: false
 musicID 	: 
 encrypt 	: false
 enc_pwd 	: 
