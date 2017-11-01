@@ -1,10 +1,10 @@
 ---
-title: 孔雀东南飞
-date: 2017-08-11 16:17:46
-tags:
-	-  至此流年各天涯
-music: 'true'
-musicID: 40257852
+title 		: 孔雀东南飞
+date 		: 2017-08-15 16:17:46
+tags 		:
+			- 至此流年各天涯
+music 		: 'true'
+musicID 	: 40257852
 ---
 
 ![孔雀东南飞](/assets/blogImg/孔雀东南飞.jpg)

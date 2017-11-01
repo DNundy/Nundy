@@ -1,12 +1,12 @@
 ---
 
 title     : Hexo小窝de自我介绍
-date      : 2017-08-15 20:46:49
+date      : 2017-08-11 20:46:49
 music 		: 'true'
 musicID 	: 27836179
 toc 		  : true
 tags      : 
-			-  Hexo 博客
+			    - Hexo 博客
 
 ---
 

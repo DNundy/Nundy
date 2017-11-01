@@ -1,8 +1,8 @@
 /*
 * @Author: Nundy
 * @Date:   2017-08-15 15:47:14
- * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2017-10-22 12:22:57
+ * @Last Modified by:   Administrator
+ * @Last Modified time: 2017-11-01 20:47:37
 */
 "use strict";
 const fs    = require("fs");
@@ -33,7 +33,7 @@ fs.readdir(path, function (err, files) {
 					text.push(value.split(".",1)[0]);
 				});
 				arr.push({
-					"date"  : JSON.stringify(fs.readdirSync(path)[index]).substr("4","10"),
+					"date"  : fs.readdirSync(path)[index].substr("3"),
 					"link"  : link,
 					"text"  : text
 				});

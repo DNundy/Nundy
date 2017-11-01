@@ -6,7 +6,7 @@ music 		: false
 musicID 	: 
 encrypt 	: false
 enc_pwd 	: 
-toc : true
+toc 		: true
 tags 		: 
 			- Browser
 ---
