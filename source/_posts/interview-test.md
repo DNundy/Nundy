@@ -210,8 +210,36 @@ DOM 树完全与 html 标签一一对应, 但是渲染树会忽略掉不需要�
 
 ### 如何加快页面加载速度
 
-减少 HTTP 访问次数（适当使用 DataURL、CSS Sprite）、CDN、minify、服务器增加缓存或浏览器本地缓存、CSS 放前面 JS 放后面、图片压缩等。 
+减少 HTTP 访问次数（适当使用 DataURL、CSS Sprite）、CDN、minify、服务器增加缓存或浏览器本地缓存、CSS 放前面 JS 放后面、图片压缩等。
 
 ### 如果一个元素 absolute，没设 left、top，位置是哪里
 
 相当于 static 的默认位置。左上角之所以不准确，是因为如果父元素在本元素之前如果还有子元素的话，那就不是左上角了。
+
+### HTTP 状态码
+
+状态码是由 3 位数组成，表示服务器对 HTTP 请求的响应状态，第一个数字定义了响应的类别，且有五种可能取值：
+
++ 1XX Informational 信息性状态码，表示接受的请求正在处理
+
++ 2XX Success 成功状态码，表示请求正常处理完毕
+
++ 3XX Redirection 重定向状态码，表示需要客户端需要进行附加操作
+
++ 4XX Client Error 客户端错误状态码，表示服务器无法处理请求
+
++ 5XX Server Error 服务器错误状态码，表示服务器处理请求出错
+
+#### 常用状态码及对应的意思
+
+200 204 206（Range, Content-Range）
+
+301（Location，更新书签） 302（不更新书签） 303 304（If-Match, If-Modified-Since,If-None-Match, If-Unmmodified-Since, If-Range） 307
+
+400（语法错误） 401（WWW-Authenticate, Authorization） 403 404
+
+500 503（超负荷或正在停机维护，Retry-After）
+
+302 指定使用原有请求方法，303 指定使用 GET 方法，307 不指定；
+
+401 Unauthorized未被授权：该状态码表示发送的请求需要有通过HTTP认证(Basic认证，Digest 认证)的认证信息。返回含有 401 的响应，必须在头部包含 WWW-Authenticate以指明服务器需要哪种方式的认证。当客户端再次请求该资源的时候，需要在请求头中的Authorization 包含认证信息。
