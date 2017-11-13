@@ -1,6 +1,6 @@
 ---
 
-title 		: URI的故事
+title 		: URI 的故事
 date 		: 2017-10-25 15:22:22
 music 		: false
 musicID 	: 
@@ -8,7 +8,7 @@ encrypt 	: false
 enc_pwd 	: 
 toc 		: true
 tags 		: 
-			- Browser
+			- Network
 ---
 ![uri-coding](/assets/blogImg/uri-coding.png)
 
