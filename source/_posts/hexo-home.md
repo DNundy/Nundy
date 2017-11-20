@@ -10,7 +10,7 @@ tags      :
 
 ---
 
-![Hexo小窝de自我介绍](/assets/blogImg/Hexo小窝的自我介绍.jpg)
+![Hexo小窝de自我介绍](http://ozgbjelmj.bkt.clouddn.com/Hexo%E5%B0%8F%E7%AA%9D%E7%9A%84%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D.jpg)
 
 Hi , 终于等到你，还好我没放弃！
 
