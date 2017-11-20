@@ -16,8 +16,6 @@ toc: true
 
 不想看书，不想Coding，刷一波题吧！
 
-五页面试题，五天刷完，周六粗去嗨嗨嗨~
-
 <!-- more -->
 
 ## The first day !
