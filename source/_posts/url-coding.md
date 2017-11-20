@@ -10,7 +10,7 @@ toc 		: true
 tags 		: 
 			- Network
 ---
-![uri-coding](/assets/blogImg/uri-coding.png)
+![uri-coding](http://ozgbjelmj.bkt.clouddn.com/uri-coding.png)
 
 一般来说，URL只能使用英文字母、阿拉伯数字和某些标点符号，不能使用其他文字和符号。
 
@@ -77,7 +77,7 @@ tags 		:
 
 ## URI-URL-URN区别
 
-![URI-URL-URN](/assets/blogImg/URI-URL-URN.webp)
+![URI-URL-URN](http://ozgbjelmj.bkt.clouddn.com/URI-URL-URN.webp)
 
 >统一资源标识符（URI）提供了一个简单、可扩展的资源标识方式。URI规范中的语义和语法来源于万维网全球信息主动引入的概念，万维网从1990年起使用这种标识符数据，并被描述为“万维网中的统一资源描述符”。
 

@@ -7,7 +7,7 @@ music 		: 'true'
 musicID 	: 40257852
 ---
 
-![孔雀东南飞](/assets/blogImg/孔雀东南飞.jpg)
+![孔雀东南飞](http://ozgbjelmj.bkt.clouddn.com/孔雀东南飞.jpg)
 
 ---
 

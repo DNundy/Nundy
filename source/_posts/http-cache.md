@@ -11,7 +11,7 @@ toc: true
 
 ---
 
-![cache-title](/assets/blogImg/cache-title.jpg)
+![cache-title](http://ozgbjelmj.bkt.clouddn.com/cache-title.jpg)
 
 在前端开发中，性能一直都是被大家所重视的一点，然而判断一个网站的性能最直观的就是看网页打开的速度。
 
@@ -101,11 +101,11 @@ c、一些资源的最后修改时间改变了，但是内容没改变，使用E
 
 说了这么多的属性，那么整体来看，它的具体流程是这样的，如下图：
 
-![缓存流程](/assets/blogImg/cache/cache.webp)
+![缓存流程](http://ozgbjelmj.bkt.clouddn.com/cache.webp)
 
 还有关于 Cache-Control 的属性使用，如下图：
 
-![缓存流程](/assets/blogImg/cache/cache-control.webp)
+![缓存流程](http://ozgbjelmj.bkt.clouddn.com/cache-control.webp)
 
 ## 参考资料
 

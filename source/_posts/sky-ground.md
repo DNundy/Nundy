@@ -10,7 +10,7 @@ enc_pwd:
 toc: true
 ---
 
-![仰望星空与脚踏实地](/assets/blogImg/sky-ground.jpg)
+![仰望星空与脚踏实地](http://ozgbjelmj.bkt.clouddn.com/sky-ground.jpg)
 
 文章原名为《2016年前端技术观察》。无意中翻出这篇文章，给自己带来了很多感触。所以分享出来！
 

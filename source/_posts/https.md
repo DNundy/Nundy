@@ -11,7 +11,7 @@ toc: true
 
 ---
 
-![HTTPS协议](/assets/blogImg/https.jpg)
+![HTTPS协议](http://ozgbjelmj.bkt.clouddn.com/https.jpg)
 
 HTTP使用普通的非加密TCP作为其传输机制
 

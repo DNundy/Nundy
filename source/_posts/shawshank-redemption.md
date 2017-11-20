@@ -9,7 +9,7 @@ musicID:
 enc_pwd:
 ---
 
-![有些鸟儿注定不会被关在笼子里](/assets/blogImg/ShawshankRedemption/有些鸟儿注定不会被关在笼子里.jpg)
+![有些鸟儿注定不会被关在笼子里](http://ozgbjelmj.bkt.clouddn.com/有些鸟儿注定不会被关在笼子里.jpg)
 
 You know some birds are not meant to be caged, their feathers are just too bright.
 
@@ -19,7 +19,7 @@ You know some birds are not meant to be caged, their feathers are just too brigh
 
 ---
 
-![安迪说的那棵树](/assets/blogImg/ShawshankRedemption/锤子与圣经.jpg)
+![安迪说的那棵树](http://ozgbjelmj.bkt.clouddn.com/锤子与圣经.jpg)
 
 我回首前尘往事,犯下重罪的小笨蛋
 
@@ -29,7 +29,7 @@ You know some birds are not meant to be caged, their feathers are just too brigh
 
 ---
 
-![主题封面](/assets/blogImg/ShawshankRedemption/主题封面.jpg)
+![主题封面](http://ozgbjelmj.bkt.clouddn.com/主题封面.jpg)
 
 或许有一天你鼓起勇气，把心中的一切和盘托出，结果只落得让别人看笑话.
 

@@ -10,7 +10,7 @@ enc_pwd:
 toc: true
 ---
 
-![package-json](/assets/blogImg/package-json.jpg)
+![package-json](http://ozgbjelmj.bkt.clouddn.com/package-json.jpg)
 
 本文档的内容是package.json配置里边各个属性的含义解释。
 

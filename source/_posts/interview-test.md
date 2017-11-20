@@ -10,7 +10,7 @@ enc_pwd:
 toc: true
 ---
 
-![学长面试题走一波](/assets/blogImg/interview-test.jpg)
+![学长面试题走一波](http://ozgbjelmj.bkt.clouddn.com/interview-test.jpg)
 
 永远也不要忘记能够笑的坚强 (๑╹◡╹)ﾉ"""
 

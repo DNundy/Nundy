@@ -12,4 +12,4 @@ enc_pwd 	:
 ---
 # 闭包问题一篇就够
 
-![闭包问题一篇就够](/assets/blogImg/闭包问题一篇就够.jpg)
+![闭包问题一篇就够](http://ozgbjelmj.bkt.clouddn.com/闭包问题一篇就够.jpg)
