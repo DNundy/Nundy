@@ -1,5 +1,5 @@
 ---
-title: W3C标准
+title: 如何让你的网站遵循W3C标准
 music: false
 encrypt: false
 tags:
