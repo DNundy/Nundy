@@ -290,7 +290,7 @@ rss : /atom.xml
 + Step1 使用ping命令来获取Github Pages的ip地址，如：
 
 ```cmd
-ping uniquesirius.github.io
+ping DNundy.github.io
 ```
 
 + Step2 购买域名，解析到获取的ip地址处

@@ -84,7 +84,7 @@ theme           : yilia
 deploy:
   type        : git
   repo        : 
-    github:   git@github.com:UniqueSirius/UniqueSirius.github.io.git
+    github:   git@github.com:DNundy/DNundy.github.io.git
     gitee:    git@gitee.com:Nundy/Nundy.git
   branch      : master
 

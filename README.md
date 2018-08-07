@@ -181,7 +181,7 @@ rss : /atom.xml
 + Step1 使用ping命令来获取Github Pages的ip地址，如：
 
 ```cmd
-ping uniquesirius.github.io
+ping DNundy.github.io
 ```
 
 + Step2 购买域名，解析到获取的ip地址处
@@ -214,4 +214,4 @@ echo text>.gitingore
 
 简单概述了文件目录，和在 yilla 的基础上做的一些改动功能。希望能够帮助到大家！
 
-其余详细问题可以通过查看源代码注释、[Issues](https://github.com/UniqueSirius/Nundy/issues) 或者访问我的主页 [Nundy的博客](http://nundy.cn/"爱的传送门") 评论留言等方式解决！
+其余详细问题可以通过查看源代码注释、[Issues](https://github.com/DNundy/DNundy.github.io/issues) 或者访问我的主页 [Nundy的博客](http://nundy.cn/"爱的传送门") 评论留言等方式解决！
