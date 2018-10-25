@@ -22,7 +22,9 @@ toc: true
 
 开始之前，把服务器系统重装一下，系统重装为 Ubuntu Server 16.04.1 LTS 64位
 
-我的是腾讯云服务器，重装之后，默认账户是`ubuntu`，密码在重装的时候设置
+我的是腾讯云服务器，可以再腾讯云的控制台进行重装系统
+
+重装之后，默认账户是`ubuntu`，密码在重装的时候会提示你进行设置
 
 首先，通过`XShell`使用默认账户登录系统，然后我们进行设置`root`账户的密码
 
@@ -32,9 +34,11 @@ sudo passwd root
 
 执行上面命令，然后输入两次你需要设置的密码就OK了
 
-现在，root账户的密码设置好了，但是我们还不能直接通过root账户登录，因为，为了安全考虑，root账户直接登录一般被禁止
+现在，root账户的密码设置好了
 
-所以，我们修改一下配置文件
+但是，我们还不能使用`XShell`等软件直接通过root账户登录，因为，为了安全考虑，root账户直接登录一般被禁止
+
+此处，为了方便，我们修改一下配置文件
 
 ```
 vi /etc/ssh/sshd_config
@@ -57,7 +61,7 @@ service ssh restart
 
 # 开始安装 ~
 
-接下来我们来搭建 LAMP 的环境，因为需要安装若干东西，先来更新一下源列表
+接下来我们来搭建 LAMP（LNMP） 的环境，因为需要安装若干东西，先来更新一下源列表
 
 ```
 su root
@@ -68,7 +72,9 @@ apt-get update
 
 更新好列表以后，我们开始安装：
 
-1.安装 Apache2
+1. 安装服务器
+
+安装 Apache2 
 
 ```
 apt-get install apache2
@@ -79,6 +85,14 @@ Apache 默认的WEB根目录在`/var/www/html`，如果安装成功，它会在�
 该页面展示了 Apache 服务器的基本信息，可以通过访问IP地址或者域名的方式来测试
 
 如果看到该页面，则证明安装成功。
+
+或者 安装 Nginx
+
+```
+apt-get install nginx
+```
+
+nginx 默认 WEB 根目录和 Apache 一样，此时，访问服务器可以看到 nginx 的提示信息！证明成功
 
 2.安装 MySql
 
@@ -108,13 +122,23 @@ apt-get install php7.0
 
 # 建立联系 ~
 
-4.安装 libapache2-mod-php7.0
+4.让服务器支持 php
+
+Apache:  安装 libapache2-mod-php7.0
 
 ```
 apt-get install libapache2-mod-php7.0
 ```
 
 它的作用是让 Apache2 可以解析 PHP
+
+Nginx:  修改配置文件
+
+```
+vi /etc/nginx/sites-available/default
+```
+
+去除 location ~\.php$ 的选项
 
 5.安装 php7.0-mysql
 
@@ -127,7 +151,7 @@ apt-get install php7.0-mysql
 6.重启服务，使安装失效
 
 ```
-service apache2 restart
+service apache2 restart 或者  service nginx restart
 service mysql restart
 ```
 
@@ -155,7 +179,7 @@ apt-get install phpmyadmin
 ln -s /usr/share/phpmyadmin /var/www/html
 ```
 
-然后我们启用 Apache2 的 mod_rewrite 模块
+对于 Apache 来说，我们还需要启用 Apache2 的 mod_rewrite 模块
 
 ```
 a2enmod rewrite
@@ -174,9 +198,11 @@ service apache2 restart
 
 # 添加可执行类型 ~
 
-最后的最后~我们再来配置一下 Apache2
+最后的最后~我们再来配置一下 Apache2 或者 Nginx 的可执行类型
 
 这个又有什么卵用呢？它可以添加 ‘可以执行php的文件类型’，我们来看一下
+
+Apache:
 
 打开 Apache2 配置文件
 
@@ -196,6 +222,14 @@ AddDefaultCharset UTF-8
 ```
 service apache2 restart
 ```
+
+Nginx:
+
+```
+vi /etc/nginx/nginx.conf
+```
+
+再 index.html index.htm 等的后面加上 index.php
 
 现在，我们只要在 html 代码中写 php，也可以进行执行了，Cool
 

@@ -84,8 +84,8 @@ theme           : yilia
 deploy:
   type        : git
   repo        : 
-    github:   git@github.com:DNundy/DNundy.github.io.git
-    gitee:    git@gitee.com:Nundy/Nundy.git
+    github:   https://github.com/DNundy/DNundy.github.io.git
+    # gitee:    git@gitee.com:Nundy/Nundy.git
   branch      : master
 
 #Aside
